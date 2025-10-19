@@ -1,0 +1,176 @@
+                {
+                    id: "se",
+                    name: "Software Engineering",
+                    semesters: Array.from({ length: 7 }, (_, i) => ({
+                        number: i + 1,
+                        subjects: i === 0 ? [
+                            {
+                                code: "SE101",
+                                name: "Programming Algorithms",
+                                instructor: "Dr. Ali Ahmed",
+                                schedule: "Mon 09:00-11:00",
+                                pdfs: [
+                                    { title: "Introduction to Algorithms", url: "#", date: "2025-03-01", size: "2MB", type: "Lecture" },
+                                    { title: "Basic Programming Concepts", url: "#", date: "2025-03-08", size: "2.3MB", type: "Lecture" },
+                                    { title: "Lab Exercise 1", url: "#", date: "2025-03-15", size: "1.8MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: "SE102",
+                                name: "Math I",
+                                instructor: "Dr. Maria Johnson",
+                                schedule: "Tue 10:00-12:00",
+                                pdfs: [
+                                    { title: "Calculus Basics", url: "#", date: "2025-03-02", size: "2.5MB", type: "Lecture" },
+                                    { title: "Linear Algebra", url: "#", date: "2025-03-09", size: "2.2MB", type: "Lecture" },
+                                    { title: "Practice Problems", url: "#", date: "2025-03-16", size: "1.5MB", type: "Assignment" }
+                                ]
+                            },
+                            {
+                                code: "SE103",
+                                name: "Logic Design",
+                                instructor: "Dr. James Wilson",
+                                schedule: "Wed 13:00-15:00",
+                                pdfs: [
+                                    { title: "Boolean Algebra", url: "#", date: "2025-03-03", size: "2.1MB", type: "Lecture" },
+                                    { title: "Digital Circuits", url: "#", date: "2025-03-10", size: "2.4MB", type: "Lecture" },
+                                    { title: "Lab Work", url: "#", date: "2025-03-17", size: "1.6MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: "SE104",
+                                name: "Kurdology",
+                                instructor: "Dr. Karzan Omar",
+                                schedule: "Thu 09:00-11:00",
+                                pdfs: [
+                                    { title: "Kurdish History", url: "#", date: "2025-03-04", size: "2.3MB", type: "Lecture" },
+                                    { title: "Kurdish Culture", url: "#", date: "2025-03-11", size: "2.1MB", type: "Lecture" },
+                                    { title: "Assignment 1", url: "#", date: "2025-03-18", size: "1.4MB", type: "Assignment" }
+                                ]
+                            },
+                            {
+                                code: "SE105",
+                                name: "IT Skills",
+                                instructor: "Dr. Sarah Ahmed",
+                                schedule: "Mon 13:00-15:00",
+                                pdfs: [
+                                    { title: "Computer Basics", url: "#", date: "2025-03-05", size: "1.9MB", type: "Lecture" },
+                                    { title: "Office Tools", url: "#", date: "2025-03-12", size: "2.0MB", type: "Lecture" },
+                                    { title: "Practical Exercise", url: "#", date: "2025-03-19", size: "1.7MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: "SE106",
+                                name: "English",
+                                instructor: "Dr. Emily Brown",
+                                schedule: "Tue 14:00-16:00",
+                                pdfs: [
+                                    { title: "Technical Writing", url: "#", date: "2025-03-06", size: "1.8MB", type: "Lecture" },
+                                    { title: "Communication Skills", url: "#", date: "2025-03-13", size: "2.2MB", type: "Lecture" },
+                                    { title: "Writing Assignment", url: "#", date: "2025-03-20", size: "1.3MB", type: "Assignment" }
+                                ]
+                            }
+                        ] : i === 2 ? [
+                            {
+                                code: "SE301",
+                                name: "Introduction to Object-Oriented Programming",
+                                instructor: "Dr. Ali Ahmed",
+                                schedule: "Mon 09:00-11:00",
+                                pdfs: [
+                                    { title: "Classes and Objects", url: "#", date: "2025-03-01", size: "2.2MB", type: "Lecture" },
+                                    { title: "Inheritance and Polymorphism", url: "#", date: "2025-03-08", size: "2.5MB", type: "Lecture" },
+                                    { title: "OOP Lab Work", url: "#", date: "2025-03-15", size: "1.8MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: "SE302",
+                                name: "Math III",
+                                instructor: "Dr. Maria Johnson",
+                                schedule: "Tue 10:00-12:00",
+                                pdfs: [
+                                    { title: "Advanced Calculus", url: "#", date: "2025-03-02", size: "2.4MB", type: "Lecture" },
+                                    { title: "Differential Equations", url: "#", date: "2025-03-09", size: "2.3MB", type: "Lecture" },
+                                    { title: "Math Problems Set", url: "#", date: "2025-03-16", size: "1.6MB", type: "Assignment" }
+                                ]
+                            },
+                            {
+                                code: "SE303",
+                                name: "Software Engineering Principle",
+                                instructor: "Dr. Sarah Wilson",
+                                schedule: "Wed 13:00-15:00",
+                                pdfs: [
+                                    { title: "SDLC Overview", url: "#", date: "2025-03-03", size: "2.1MB", type: "Lecture" },
+                                    { title: "Agile Methodologies", url: "#", date: "2025-03-10", size: "2.6MB", type: "Lecture" },
+                                    { title: "Project Planning", url: "#", date: "2025-03-17", size: "1.9MB", type: "Assignment" }
+                                ]
+                            },
+                            {
+                                code: "SE304",
+                                name: "Operating System",
+                                instructor: "Dr. James Wilson",
+                                schedule: "Thu 09:00-11:00",
+                                pdfs: [
+                                    { title: "Process Management", url: "#", date: "2025-03-04", size: "2.3MB", type: "Lecture" },
+                                    { title: "Memory Management", url: "#", date: "2025-03-11", size: "2.4MB", type: "Lecture" },
+                                    { title: "OS Lab Exercise", url: "#", date: "2025-03-18", size: "1.7MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: "SE305",
+                                name: "Combinatorics and Graph Theory",
+                                instructor: "Dr. Robert Chen",
+                                schedule: "Mon 13:00-15:00",
+                                pdfs: [
+                                    { title: "Graph Fundamentals", url: "#", date: "2025-03-05", size: "2.0MB", type: "Lecture" },
+                                    { title: "Combinatorial Analysis", url: "#", date: "2025-03-12", size: "2.2MB", type: "Lecture" },
+                                    { title: "Theory Problems", url: "#", date: "2025-03-19", size: "1.5MB", type: "Assignment" }
+                                ]
+                            },
+                            {
+                                code: "SE306",
+                                name: "Data Structure",
+                                instructor: "Dr. Emily Brown",
+                                schedule: "Tue 14:00-16:00",
+                                pdfs: [
+                                    { title: "Advanced Data Structures", url: "#", date: "2025-03-06", size: "2.5MB", type: "Lecture" },
+                                    { title: "Algorithm Analysis", url: "#", date: "2025-03-13", size: "2.3MB", type: "Lecture" },
+                                    { title: "Implementation Lab", url: "#", date: "2025-03-20", size: "1.8MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: "SE307",
+                                name: "Database",
+                                instructor: "Dr. Michael Lee",
+                                schedule: "Wed 09:00-11:00",
+                                pdfs: [
+                                    { title: "Database Design", url: "#", date: "2025-03-07", size: "2.1MB", type: "Lecture" },
+                                    { title: "SQL Fundamentals", url: "#", date: "2025-03-14", size: "2.4MB", type: "Lecture" },
+                                    { title: "Database Project", url: "#", date: "2025-03-21", size: "1.7MB", type: "Assignment" }
+                                ]
+                            }
+                        ] : [
+                            {
+                                code: `SE${101 + i}`,
+                                name: "Introduction to Programming",
+                                instructor: "Dr. Ali Ahmed",
+                                schedule: "Mon 10:00-12:00",
+                                pdfs: [
+                                    { title: "Introduction to Variables", url: "#", date: "2025-03-01", size: "2MB", type: "Lecture" },
+                                    { title: "Control Structures", url: "#", date: "2025-03-08", size: "2.3MB", type: "Lecture" },
+                                    { title: "Functions and Methods", url: "#", date: "2025-03-15", size: "1.8MB", type: "Lab" }
+                                ]
+                            },
+                            {
+                                code: `SE${201 + i}`,
+                                name: "Data Structures",
+                                instructor: "Dr. Sarah Wilson",
+                                schedule: "Wed 14:00-16:00",
+                                pdfs: [
+                                    { title: "Arrays and Lists", url: "#", date: "2025-03-02", size: "3MB", type: "Lecture" },
+                                    { title: "Trees and Graphs", url: "#", date: "2025-03-09", size: "2.8MB", type: "Lecture" },
+                                    { title: "Assignment 1", url: "#", date: "2025-03-16", size: "1.5MB", type: "Assignment" }
+                                ]
+                            }
+                        ]
+                    }))
+                },
